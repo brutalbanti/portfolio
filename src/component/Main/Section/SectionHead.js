@@ -65,7 +65,7 @@ const SectionHead = (props) => {
                                 FrontEnd React <br />
                                 <span>Developer</span>
                             </motion.h2>
-                            <motion.a href="" className="content-left__btn" variants={textAnimation} custom={2}>
+                            <motion.a href="https://t.me/antony_developer" className="content-left__btn" variants={textAnimation} custom={2}>
                                 Hire me
                             </motion.a>
                             <motion.img src={arrow} alt="" className="arrow" custom={2} variants={imageAnimation} />
