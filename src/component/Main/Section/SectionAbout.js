@@ -63,7 +63,7 @@ const SectionAbout = (props) => {
                             <motion.img src={arrow} alt="emoji-arrow" className='emoji-arrow' custom={2} variants={downAnimation} />
                         }
                         <motion.div className="bio-content__title" initial='hidden' whileInView='visible' viewport={{ once: true }} custom={2} variants={textAnimation}>About <span>me</span></motion.div>
-                        <motion.p className="bio-content__text" custom={2} variants={textAnimation}>
+                        <motion.p className="bio-content__text" initial='hidden' whileInView='visible' viewport={{ once: true }} custom={2} variants={textAnimation}>
                             Вітаю роботодавців.
                             Мені 17 років, я студент. Проходив курси в ITEA. Хороші знання HTML, CSS, JS, React.
                             <br />
@@ -125,7 +125,7 @@ const SectionAbout = (props) => {
                         </motion.p>
                     </div>
                     <div className="about-content__image">
-                        <motion.img src={man} alt="" custom={1} variants={imageRight} />
+                        <motion.img src={man} alt="" initial='hidden' whileInView='visible' viewport={{ once: true }} custom={1} variants={imageRight} />
                     </div>
                 </div>
             </div>
