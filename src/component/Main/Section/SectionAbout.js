@@ -53,7 +53,7 @@ const SectionAbout = (props) => {
     }
 
     return (
-        <motion.section className="page__about" ref={props.scrollToSection} initial='hidden' whileInView='visible' viewport={{ amount: 0.7, once: true }}>
+        <motion.section className="page__about" ref={props.scrollToSection} initial='hidden' whileInView='visible' viewport={{ amount: 0.6, once: true }}>
             <div className="about__container" >
                 <div className="about-content" >
                     <div className="about-content__bio">
@@ -62,8 +62,8 @@ const SectionAbout = (props) => {
                         {readMore === false &&
                             <motion.img src={arrow} alt="emoji-arrow" className='emoji-arrow' custom={2} variants={downAnimation} />
                         }
-                        <motion.div className="bio-content__title" initial='hidden' whileInView='visible' viewport={{ once: true }} custom={2} variants={textAnimation}>About <span>me</span></motion.div>
-                        <motion.p className="bio-content__text" initial='hidden' whileInView='visible' viewport={{ once: true }} custom={2} variants={textAnimation}>
+                        <motion.div className="bio-content__title" custom={2} variants={textAnimation}>About <span>me</span></motion.div>
+                        <motion.p className="bio-content__text" viewport={{ once: true }} custom={2} variants={textAnimation}>
                             Вітаю роботодавців.
                             Мені 17 років, я студент. Проходив курси в ITEA. Хороші знання HTML, CSS, JS, React.
                             <br />
@@ -125,7 +125,7 @@ const SectionAbout = (props) => {
                         </motion.p>
                     </div>
                     <div className="about-content__image">
-                        <motion.img src={man} alt="" initial='hidden' whileInView='visible' viewport={{ once: true }} custom={1} variants={imageRight} />
+                        <motion.img src={man} alt="" viewport={{ once: true }} custom={1} variants={imageRight} />
                     </div>
                 </div>
             </div>
