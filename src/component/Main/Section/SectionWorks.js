@@ -72,6 +72,7 @@ const SectionWorks = (props) => {
             transition: { delay: custom * 0.2 }
         })
     }
+
     return (
         <motion.section className="page__works" ref={props.scrollToWorks} initial='hidden' whileInView='visible' viewport={{ amount: 0.6, once: true }}>
             <div className="works__container">

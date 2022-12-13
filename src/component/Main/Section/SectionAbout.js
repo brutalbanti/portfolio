@@ -60,7 +60,7 @@ const SectionAbout = (props) => {
                         <motion.img src={music} alt="emoji-music" className='emoji-music' custom={1} variants={textAnimation} />
                         <motion.img src={lamp} alt="emoji-lamp" className='emoji-lamp' custom={1} variants={textAnimation} />
                         {readMore === false &&
-                            <motion.img src={arrow} alt="emoji-arrow" className='emoji-arrow' custom={2} variants={downAnimation} />
+                            <motion.img src={arrow} alt="emoji-arrow" className='emoji-arrow' custom={2} variants={downAnimation}/>
                         }
                         <motion.div className="bio-content__title" custom={2} variants={textAnimation}>About <span>me</span></motion.div>
                         <motion.p className="bio-content__text" viewport={{ once: true }} custom={2} variants={textAnimation}>
@@ -114,9 +114,6 @@ const SectionAbout = (props) => {
                                 - Проект Star Wars API; <br />
                                 - Проект GitHub Battle, де ви зможете побачити найкращі профілі на github які належать до мов програмування, які ви оберете. Також зможете вписати ім'я двух людей на github, щоб визначити у кого кращий профіль. <br />
                                 - Проект прогноз погоди, де ви сможете вказати будь-яке місто, і вам покаже прогноз на 4 дні вперед, та подивитись прогноз на день який зараз. Ви можете включити геолокацію, та отримати прогноз там де ви знаходитесь.
-                                <br />
-                                <br />
-                                Саме портфоліо: <a href="https://brutalbanti.github.io/portfolio/">https://brutalbanti.github.io/portfolio/</a>
                                 <br />
                                 <br />
                                 Дякую за увагу! <br />
