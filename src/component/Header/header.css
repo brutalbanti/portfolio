@@ -15,6 +15,7 @@
     justify-content: space-between;
     padding: 20px 0px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .header__logo {
@@ -40,13 +41,15 @@
     display: none;
 }
 
+@media (max-width: 475.98px) {
+    .header__container {
+        row-gap: 10px;
+    }
+}
+
 @media (max-width: 375.98px) {
     .menu {
         width: 100%;
         padding-top: 5px;
-    }
-
-    .header__container {
-        flex-wrap: wrap;
     }
 }
