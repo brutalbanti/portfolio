@@ -154,7 +154,7 @@
         backdrop-filter: blur(1.51331px);
         padding: 15px 20px;
         cursor: pointer;
-        margin-top: 100%;
+        margin-top: 10px;
     }
 
     .content-left__btn-down img {
@@ -176,6 +176,6 @@
     }
 
     .page__head {
-        padding-bottom: 60px;
+        padding-bottom: 110px;
     }
 }
