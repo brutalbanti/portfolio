@@ -1,0 +1,49 @@
+.footer {
+    padding: 110px 0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.menu__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu__link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.social__link {
+    background: #393E46;
+    padding: 13px;
+    display: flex;
+    border-radius: 50%;
+    transition: all 0.2s ease 0s;
+}
+
+.social__link:hover {
+    transform: scale(1.1);
+}
+
+.social__list {
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+
+.social__link img {
+    width: 22px;
+    height: 22px;
+}
+
+.social__item {
+    list-style-type: none;
+}
+

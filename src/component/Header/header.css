@@ -1,0 +1,52 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.menu__list {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.header__logo {
+    font-weight: 700;
+    line-height: 13px;
+    font-size: 'Oswald', sans-serif;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.menu__item {
+    list-style-type: none;
+}
+
+.menu__link {
+    font-weight: 400;
+    line-height: 10px;
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+.menu__button {
+    display: none;
+}
+
+@media (max-width: 375.98px) {
+    .menu {
+        width: 100%;
+        padding-top: 5px;
+    }
+
+    .header__container {
+        flex-wrap: wrap;
+    }
+}
