@@ -38,15 +38,18 @@
 }
 
 .content-left__btn {
-    background: #00ADB5;
+    background: #00adb5;
     border-radius: 20px;
-    padding: 8px 22px;
+    color: #eee;
     font-size: 18px;
     font-weight: 700;
     line-height: 15px;
-    color: #EEEEEE;
-    text-shadow: 0px 1.51331px 1.51331px rgba(0, 0, 0, 0.5);
+    padding: 8px 22px;
     text-decoration: none;
+    text-shadow: 0 1.51331px 1.51331px rgb(0 0 0 / 50%);
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
 }
 
 .content-right__image {
