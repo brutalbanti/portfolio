@@ -19,15 +19,15 @@ import page_9 from '../../../img/preview-sites/09.png';
 
 const SectionWorks = (props) => {
     const works = [
-        {image: page_9, url: 'https://netflix-clone-brutalbanti.vercel.app/'},
-        { image: page_8, url: 'https://weather-eight-tau.vercel.app/' },
-        { image: page_6, url: 'https://brutalbanti.github.io/project-star/' },
-        { image: page_7, url: 'https://battle-git-two.vercel.app/' },
-        { image: page_1, url: 'https://nura.vercel.app/' },
-        { image: page_2, url: 'https://brutalbanti.github.io/restaurant/' },
-        { image: page_3, url: 'https://brutalbanti.github.io/Swingvy/' },
-        { image: page_4, url: 'https://brutalbanti.github.io/Lemur-landing/' },
-        { image: page_5, url: 'https://brutalbanti.github.io/RealEstate/' }
+        { image: page_9, url: 'https://netflix-clone-brutalbanti.vercel.app/', description: 'Clone-Netflix. Для разработки использовал React, TypeScript, Firebase, TMDB API. Можно зарегистрироваться, и войти в аккаунт. Вас перекинет на страницу с фильмами.' },
+        { image: page_8, url: 'https://weather-eight-tau.vercel.app/', description: 'Приложение Weather. Для разработки использовал React, openweatherapi. Можно выбрать город для просмотра погоды, или разрешить геолокацию и приложение покажет погоду по вашему местоположению' },
+        { image: page_6, url: 'https://brutalbanti.github.io/project-star/', description: 'Star War\'s APP. Для разработки использовал JavaScript, API StarWar' },
+        { image: page_7, url: 'https://battle-git-two.vercel.app/', description: 'Battle Github. Для разработки использовал React, GitHub API. Здесь вы можете сровнять два репозитория и узнать кто лучше. Вы сможете посмотреть топ 30 пользователей по нескольким языкам программирования.' },
+        { image: page_1, url: 'https://nura.vercel.app/', description: 'Адаптивная верстка сайта компании Nura-Elite. Без функционала.' },
+        { image: page_2, url: 'https://brutalbanti.github.io/restaurant/', description: 'Адаптивная верстка сайта ресторана. Есть Поп-ап окно при нажатие на кнопку "Заказ столика".' },
+        { image: page_3, url: 'https://brutalbanti.github.io/Swingvy/', description: 'Адаптивная верстка сайта Swingvy. Без функционала.' },
+        { image: page_4, url: 'https://brutalbanti.github.io/Lemur-landing/', description: 'Адаптивная верстка сайта Lemur-Langing. Без функционала.' },
+        { image: page_5, url: 'https://brutalbanti.github.io/RealEstate/', description: 'Адаптивная верстка сайта Real Estate. Без функционала.' }
     ]
     const params = {
         pagination: {
@@ -95,6 +95,7 @@ const SectionWorks = (props) => {
                                             <div className="slide-content__image">
                                                 <img src={work.image} alt="" />
                                             </div>
+                                            <div className="slide-content__description">{work.description}</div>
                                         </div>
                                     </motion.a>
                                 </SwiperSlide>
