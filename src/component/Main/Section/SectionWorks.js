@@ -15,9 +15,11 @@ import page_5 from '../../../img/preview-sites/05.png';
 import page_6 from '../../../img/preview-sites/06.png';
 import page_7 from '../../../img/preview-sites/07.png';
 import page_8 from '../../../img/preview-sites/08.png';
+import page_9 from '../../../img/preview-sites/09.png';
 
 const SectionWorks = (props) => {
     const works = [
+        {image: page_9, url: 'https://netflix-clone-brutalbanti.vercel.app/'},
         { image: page_8, url: 'https://weather-eight-tau.vercel.app/' },
         { image: page_6, url: 'https://brutalbanti.github.io/project-star/' },
         { image: page_7, url: 'https://battle-git-two.vercel.app/' },

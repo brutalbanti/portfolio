@@ -23,7 +23,7 @@ const Footer = (props) => {
         <motion.footer className="footer" ref={props.scrollToContacts} initial='hidden' whileInView='visible' viewport={{amount: 0.7, once: true}}>
             <div className="footer__container">
                 <div className="footer-content">
-                    <div className="menu__footer">
+                    <nav className="menu__footer">
                         <ul className="footer__list menu__list">
                             <li className="footer__item menu__item">
                                 <motion.a href="" className="footer__link menu__link" variants={textDown} custom={0.2}>
@@ -61,7 +61,7 @@ const Footer = (props) => {
                                 </motion.a>
                             </li>
                         </ul>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </motion.footer>
