@@ -60,7 +60,7 @@ const SectionAbout = (props) => {
                         <motion.img src={music} alt="emoji-music" className='emoji-music' custom={1} variants={textAnimation} />
                         <motion.img src={lamp} alt="emoji-lamp" className='emoji-lamp' custom={1} variants={textAnimation} />
                         {readMore === false &&
-                            <motion.img src={arrow} alt="emoji-arrow" className='emoji-arrow' custom={2} variants={downAnimation}/>
+                            <motion.img src={arrow} alt="emoji-arrow" className='emoji-arrow' custom={2} variants={downAnimation} />
                         }
                         <motion.div className="bio-content__title" custom={2} variants={textAnimation}>About <span>me</span></motion.div>
                         <motion.p className="bio-content__text" viewport={{ once: true }} custom={2} variants={textAnimation}>
@@ -74,22 +74,25 @@ const SectionAbout = (props) => {
                                 <span className='more-read'>..<b onClick={openForRead}>Читати більше</b></span>
                                 :
                                 <br />}
-                            <span className='more' style={readMore === false ? { display: 'none' } : { display: 'block' }}> - Верстка First mobile, pixel perfect <br />
+                            <span className='more' style={readMore === false ? { display: 'none' } : { display: 'block' }}>
+                                - TypeScript (30%)
+                                - Верстка First mobile, pixel perfect <br />
                                 - Є досвід із хостингами (залити сайт на хост, купити домен, залити сайт на домен) <br />
                                 - Був невеликий досвід верстки email-листа HTML Inline-CSS <br />
                                 - Навички роботи з GitHub(деплой html-сайту, react-додатку, та налаштування GitHub Pages).
                                 <br />
                                 <br />
-                                Для реакт додатку використовую vercel.com, щоб можна було зайти на сайт та подивитись його.
+                                Для деплоя реакт додатку використовую vercel.com.
                                 <br />
                                 <br />
-                                В даний час вдосконалюю навички React. <br />
+                                В даний час вдосконалюю навички React, TypeScript. <br />
                                 Навички в React: <br />
                                 - Базове розуміння Webpack. <br />
                                 - Деплой реакт-додатків на git. <br />
                                 - Вміння створити проект. <br />
-                                - Є проект GitHub Battle, який знаходиться в портфоліо(посилання знайдете нижче). <br />
-                                - Є проект Прогноз Погоди, який знаходиться в портфоліо.
+                                - Є проект GitHub Battle (посилання знайдете нижче). <br />
+                                - Є проект Прогноз Погоди (посилання знайдете нижче).
+                                - Є проект Clone Netflix (посилання знайдете нижче).
                                 <br />
                                 <br />
                                 Ви зможете надати мені тестове завдання, яке я виконаю, щоб ви дізнались мої навички.
@@ -109,11 +112,12 @@ const SectionAbout = (props) => {
                                 Є свій простенький інтернет-магазин ювелірної біжутерії, який розроблений на PHP, HTML, JS, CSS, MySQL.
                                 <br />
                                 <br />
-                                Прикріплю своє портфоліо в якому є: <br />
+                                Нижче ви зможете побачити секцію з роботами в якій є: <br />
                                 - Декілька зверстаних адаптивних сайтів; <br />
                                 - Проект Star Wars API; <br />
-                                - Проект GitHub Battle, де ви зможете побачити найкращі профілі на github які належать до мов програмування, які ви оберете. Також зможете вписати ім'я двух людей на github, щоб визначити у кого кращий профіль. <br />
-                                - Проект прогноз погоди, де ви сможете вказати будь-яке місто, і вам покаже прогноз на 4 дні вперед, та подивитись прогноз на день який зараз. Ви можете включити геолокацію, та отримати прогноз там де ви знаходитесь.
+                                - Проект GitHub Battle; <br />
+                                - Проект прогноз погоди; <br/>
+                                - Проект Clone Netflix;
                                 <br />
                                 <br />
                                 Дякую за увагу! <br />
