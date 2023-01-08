@@ -65,7 +65,7 @@ const SectionAbout = (props) => {
                         <motion.div className="bio-content__title" custom={2} variants={textAnimation}>About <span>me</span></motion.div>
                         <motion.p className="bio-content__text" viewport={{ once: true }} custom={2} variants={textAnimation}>
                             Вітаю роботодавців.
-                            Мені 17 років, я студент. Проходив курси в ITEA. Хороші знання HTML, CSS, JS, React.
+                            Мені 18 років, я студент. Проходив курси в ITEA. Хороші знання HTML, CSS, JS, React.
                             <br />
                             <br />
                             Навички: <br />
