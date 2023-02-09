@@ -22,7 +22,7 @@ const SectionWorks = (props) => {
     const works = [
         { image: page_9, url: 'https://netflix-clone-brutalbanti.vercel.app/', description: 'Clone-Netflix. Для разработки использовал React, TypeScript, Firebase, TMDB API. Можно зарегистрироваться, и войти в аккаунт. Вас перекинет на страницу с фильмами.' },
         { image: page_8, url: 'https://weather-eight-tau.vercel.app/', description: 'Приложение Weather. Для разработки использовал React, openweatherapi. Можно выбрать город для просмотра погоды, или разрешить геолокацию и приложение покажет погоду по вашему местоположению' },
-        { image: page_10, url: 'https://medical-gold.com/', description: 'Интернет-магазин прикрас. Для разработки использовал HTML, CSS, JavaScript, SQL, MySQL Database, PHP.' },
+        { image: page_10, url: 'https://medical-gold.com/', description: 'Интернет-магазин украшений. Для разработки использовал HTML, CSS, JavaScript, SQL, MySQL Database, PHP.' },
         { image: page_6, url: 'https://brutalbanti.github.io/project-star/', description: 'Star War\'s APP. Для разработки использовал JavaScript, API StarWar' },
         { image: page_7, url: 'https://battle-git-two.vercel.app/', description: 'Battle Github. Для разработки использовал React, GitHub API. Здесь вы можете сровнять два репозитория и узнать кто лучше. Вы сможете посмотреть топ 30 пользователей по нескольким языкам программирования.' },
         { image: page_1, url: 'https://nura.vercel.app/', description: 'Адаптивная верстка сайта компании Nura-Elite на React. Без функционала.' },
