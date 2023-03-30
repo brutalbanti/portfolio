@@ -17,9 +17,11 @@ import page_7 from '../../../img/preview-sites/07.png';
 import page_8 from '../../../img/preview-sites/08.png';
 import page_9 from '../../../img/preview-sites/09.png';
 import page_10 from '../../../img/preview-sites/10.png';
+import page_11 from '../../../img/preview-sites/11.png';
 
 const SectionWorks = (props) => {
     const works = [
+        { image: page_11, url: 'https://coding-service.vercel.app/', description: 'Relax Programming. Разработал личный проект на котором есть аудиоплеер, три ToDo листа, таймер. Для разработки использовал React, TypeScript, CSS, Firebase(Authentication, Realtime Database)' },
         { image: page_9, url: 'https://netflix-clone-brutalbanti.vercel.app/', description: 'Clone-Netflix. Для разработки использовал React, TypeScript, Firebase, TMDB API. Можно зарегистрироваться, и войти в аккаунт. Вас перекинет на страницу с фильмами.' },
         { image: page_8, url: 'https://weather-eight-tau.vercel.app/', description: 'Приложение Weather. Для разработки использовал React, openweatherapi. Можно выбрать город для просмотра погоды, или разрешить геолокацию и приложение покажет погоду по вашему местоположению' },
         { image: page_10, url: 'https://medical-gold.com/', description: 'Интернет-магазин украшений. Для разработки использовал HTML, CSS, JavaScript, SQL, MySQL Database, PHP.' },
