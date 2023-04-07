@@ -18,20 +18,22 @@ import page_8 from '../../../img/preview-sites/08.png';
 import page_9 from '../../../img/preview-sites/09.png';
 import page_10 from '../../../img/preview-sites/10.png';
 import page_11 from '../../../img/preview-sites/11.png';
+import page_12 from '../../../img/preview-sites/12.png';
 
 const SectionWorks = (props) => {
     const works = [
-        { image: page_11, url: 'https://coding-service.vercel.app/', description: 'Relax Programming. Разработал личный проект на котором есть аудиоплеер, три ToDo листа, таймер. Для разработки использовал React, TypeScript, CSS, Firebase(Authentication, Realtime Database)' },
-        { image: page_9, url: 'https://netflix-clone-brutalbanti.vercel.app/', description: 'Clone-Netflix. Для разработки использовал React, TypeScript, Firebase, TMDB API. Можно зарегистрироваться, и войти в аккаунт. Вас перекинет на страницу с фильмами.' },
-        { image: page_8, url: 'https://weather-eight-tau.vercel.app/', description: 'Приложение Weather. Для разработки использовал React, openweatherapi. Можно выбрать город для просмотра погоды, или разрешить геолокацию и приложение покажет погоду по вашему местоположению' },
-        { image: page_10, url: 'https://medical-gold.com/', description: 'Интернет-магазин украшений. Для разработки использовал HTML, CSS, JavaScript, SQL, MySQL Database, PHP.' },
-        { image: page_6, url: 'https://brutalbanti.github.io/project-star/', description: 'Star War\'s APP. Для разработки использовал JavaScript, API StarWar' },
-        { image: page_7, url: 'https://battle-git-two.vercel.app/', description: 'Battle Github. Для разработки использовал React, GitHub API. Здесь вы можете сровнять два репозитория и узнать кто лучше. Вы сможете посмотреть топ 30 пользователей по нескольким языкам программирования.' },
-        { image: page_1, url: 'https://nura.vercel.app/', description: 'Адаптивная верстка сайта компании Nura-Elite на React. Без функционала.' },
-        { image: page_2, url: 'https://brutalbanti.github.io/restaurant/', description: 'Адаптивная верстка сайта ресторана. Есть Поп-ап окно при нажатие на кнопку "Заказ столика".' },
-        { image: page_3, url: 'https://brutalbanti.github.io/Swingvy/', description: 'Адаптивная верстка сайта Swingvy. Без функционала.' },
-        { image: page_4, url: 'https://brutalbanti.github.io/Lemur-landing/', description: 'Адаптивная верстка сайта Lemur-Langing. Без функционала.' },
-        { image: page_5, url: 'https://brutalbanti.github.io/RealEstate/', description: 'Адаптивная верстка сайта Real Estate. Без функционала.' }
+        { image: page_12, github: 'https://github.com/brutalbanti/crm-drive', url: 'https://crm-drive.vercel.app/', description: 'CRM Drive. Разрабатывал как тестовое задание для одной из IT-компаний. Все о проекте написал в репозитории на GitHub.' },
+        { image: page_11, github: 'https://github.com/brutalbanti/coding-service', url: 'https://coding-service.vercel.app/', description: 'Relax Programming. Разработал личный проект на котором есть аудиоплеер, три ToDo листа, таймер. Для разработки использовал React, TypeScript, CSS, Firebase(Authentication, Realtime Database)' },
+        { image: page_9, github: 'https://github.com/brutalbanti/netflix-clone', url: 'https://netflix-clone-brutalbanti.vercel.app/', description: 'Clone-Netflix. Для разработки использовал React, TypeScript, Firebase, TMDB API. Можно зарегистрироваться, и войти в аккаунт. Вас перекинет на страницу с фильмами.' },
+        { image: page_8, github: 'https://github.com/brutalbanti/weather', url: 'https://weather-eight-tau.vercel.app/', description: 'Приложение Weather. Для разработки использовал React, openweatherapi. Можно выбрать город для просмотра погоды, или разрешить геолокацию и приложение покажет погоду по вашему местоположению' },
+        { image: page_10, github: '', url: 'https://medical-gold.com/', description: 'Интернет-магазин украшений. Для разработки использовал HTML, CSS, JavaScript, SQL, MySQL Database, PHP.' },
+        { image: page_6, github: 'https://github.com/brutalbanti/project-star', url: 'https://brutalbanti.github.io/project-star/', description: 'Star War\'s APP. Для разработки использовал JavaScript, API StarWar' },
+        { image: page_7, github: 'https://github.com/brutalbanti/gitBattle', url: 'https://battle-git-two.vercel.app/', description: 'Battle Github. Для разработки использовал React, GitHub API. Здесь вы можете сровнять два репозитория и узнать кто лучше. Вы сможете посмотреть топ 30 пользователей по нескольким языкам программирования.' },
+        { image: page_1, github: 'https://github.com/brutalbanti/nura', url: 'https://nura.vercel.app/', description: 'Адаптивная верстка сайта компании Nura-Elite на React. Без функционала.' },
+        { image: page_2, github: 'https://github.com/brutalbanti/restaurant', url: 'https://brutalbanti.github.io/restaurant/', description: 'Адаптивная верстка сайта ресторана. Есть Поп-ап окно при нажатие на кнопку "Заказ столика".' },
+        { image: page_3, github: 'https://github.com/brutalbanti/Swingvy', url: 'https://brutalbanti.github.io/Swingvy/', description: 'Адаптивная верстка сайта Swingvy. Без функционала.' },
+        { image: page_4, github: 'https://github.com/brutalbanti/Lemur-landing', url: 'https://brutalbanti.github.io/Lemur-landing/', description: 'Адаптивная верстка сайта Lemur-Langing. Без функционала.' },
+        { image: page_5, github: 'https://github.com/brutalbanti/RealEstate', url: 'https://brutalbanti.github.io/RealEstate/', description: 'Адаптивная верстка сайта Real Estate. Без функционала.' },
     ]
     const params = {
         pagination: {
@@ -94,14 +96,20 @@ const SectionWorks = (props) => {
                         {works.map((work, index) => {
                             return (
                                 <SwiperSlide key={index}>
-                                    <motion.a href={work.url} target='_blank' custom={1} variants={imageOpacity}>
+                                    <motion.div custom={1} variants={imageOpacity}>
                                         <div className='slide-content'>
                                             <div className="slide-content__image">
                                                 <img src={work.image} alt="" />
                                             </div>
-                                            <div className="slide-content__description">{work.description}</div>
+                                            <div className="slide-content__description">
+                                                {work.description}
+                                                <div className="block-for-button">
+                                                    <a href={work.github} target='_blank' className="slide-content__button">Репозиторий</a>
+                                                    <a href={work.url} target='_blank' className="slide-content__button">Сайт</a>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </motion.a>
+                                    </motion.div>
                                 </SwiperSlide>
                             )
                         })}
