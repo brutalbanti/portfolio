@@ -84,7 +84,7 @@ const SectionAbout = (props) => {
                                 :
                                 <br />}
                             <span className='more' style={readMore === false ? { display: 'none' } : { display: 'block' }}>
-                                - TypeScript (30%)
+                                - TypeScript (60%)
                                 - Верстка First mobile, pixel perfect <br />
                                 - Є досвід із хостингами (залити сайт на хост, купити домен, залити сайт на домен) <br />
                                 - Був невеликий досвід верстки email-листа HTML Inline-CSS <br />
